@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#container {
+  background: url('./assets/background.webp')
+    no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content__copy p {
+    line-height: 20px;
+}
+
+.image {
+    height: 150px;
+}
+
+
+.tooltip__img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.tooltip {
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.tooltip:hover .info {
+  visibility: visible;
+}
+
+
+
+#second {
+  margin: 175px 0 0 275px !important;
+}
+
+#first {
+  margin: 75px 0 0 400px !important;
+}
+
+#third {
+  margin: 330px 0 0 190px !important;
+}
+
+#fourth {
+  margin: 220px 0 0 560px !important;
+}
+
+
+
+.info {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  position: absolute;
+  visibility: hidden;
+  overflow: hidden;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  padding: 8px 0;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+a {
+    font-size: 12px;
+}
+
+
